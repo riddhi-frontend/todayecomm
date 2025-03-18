@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ILKcMm4qLvgyT2uyhBh9Vqj8-q9KcRmKDg&s",
+      "name": "Watch",
+      "price": "2999",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "2",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ILKcMm4qLvgyT2uyhBh9Vqj8-q9KcRmKDg&s",
+      "name": "Watch",
+      "price": "299",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "3",
+      "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "name": "Watch",
+      "price": "99",
+      "category": "plant",
+      "stockqty": "-24"
+    },
+    {
+      "id": "4",
+      "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "name": "Watch",
+      "price": "4999",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "5",
+      "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "name": "Watch",
+      "price": "599",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "6",
+      "name": "blue butterfly pea",
+      "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "price": "599",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "7",
+      "name": "Alovera",
+      "image": "https://th.bing.com/th/id/OIP.Eggukfo_i1pzmLZk8csY5gHaH7?w=163&h=191&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "price": "599",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "8",
+      "name": "Ajvain",
+      "image": "https://www.flowerdekho.com/image/cache/catalog/PL4523-600x548.jpeg",
+      "price": "599",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "9",
+      "name": "blue butterfly pea",
+      "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "price": "299",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "10",
+      "name": "Alovera",
+      "image": "https://th.bing.com/th/id/OIP.Eggukfo_i1pzmLZk8csY5gHaH7?w=163&h=191&c=7&r=0&o=5&dpr=1.4&pid=1.7",
+      "price": "89",
+      "category": "Men's Watch",
+      "stockqty": "100"
+    },
+    {
+      "id": "0068",
+      "title": "efghsdmn",
+      "price": "12345",
+      "category": " hgdsfjh",
+      "stock": "21746534",
+      "image": "gfdnbc",
+      "name": "kjsdthfgeuysdhz",
+      "stockqty": "65345"
+    }
+  ]
+}
