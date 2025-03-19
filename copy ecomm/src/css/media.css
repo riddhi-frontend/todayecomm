@@ -1,0 +1,50 @@
+@media (min-width: 318px) and (max-width: 480px) {
+    .main
+    {
+        display: flex;
+        width: 0;
+        height: 0;
+    }
+    .sub
+    {
+        display: flex;
+        flex: 1;
+    }
+    .login-form{
+        width: 250px;
+    }
+    .login-form button
+    {
+        width: 45%;
+        font-size: 16px;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .edit-product
+    {
+        width: 80vw;
+    }
+    .edit-product .form-group input
+    {
+      width: 60vw;
+      height: 40px;
+    }
+    .edit-product button
+    {
+      width: 48%;
+    }
+.form-actions
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/* responsive 1920 acy=tive */
+}

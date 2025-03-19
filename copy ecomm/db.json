@@ -2,93 +2,107 @@
   "products": [
     {
       "id": "1",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ILKcMm4qLvgyT2uyhBh9Vqj8-q9KcRmKDg&s",
-      "name": "Watch",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/017/054/078/small/headphones-design-3d-rendering-for-product-mockup-free-png.png",
+      "title": "Watch",
       "price": "2999",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "2",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ILKcMm4qLvgyT2uyhBh9Vqj8-q9KcRmKDg&s",
-      "name": "Watch",
+      "title": "Watch",
       "price": "299",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "3",
       "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
-      "name": "Watch",
+      "title": "Watch",
       "price": "99",
       "category": "plant",
-      "stockqty": "-24"
+      "stock": "25"
     },
     {
       "id": "4",
       "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
-      "name": "Watch",
+      "title": "Watch",
       "price": "4999",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "5",
       "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
-      "name": "Watch",
+      "title": "Watch",
       "price": "599",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "6",
-      "name": "blue butterfly pea",
+      "title": "blue butterfly pea",
       "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
       "price": "599",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "7",
-      "name": "Alovera",
+      "title": "Alovera",
       "image": "https://th.bing.com/th/id/OIP.Eggukfo_i1pzmLZk8csY5gHaH7?w=163&h=191&c=7&r=0&o=5&dpr=1.4&pid=1.7",
       "price": "599",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "8",
-      "name": "Ajvain",
+      "title": "Ajvain",
       "image": "https://www.flowerdekho.com/image/cache/catalog/PL4523-600x548.jpeg",
       "price": "599",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "9",
-      "name": "blue butterfly pea",
+      "title": "blue butterfly pea",
       "image": "https://th.bing.com/th/id/OIP.tNjdpoC7iBpK9PgFMX9GagHaJ4?w=146&h=195&c=7&r=0&o=5&dpr=1.4&pid=1.7",
       "price": "299",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
       "id": "10",
-      "name": "Alovera",
+      "title": "Alovera",
       "image": "https://th.bing.com/th/id/OIP.Eggukfo_i1pzmLZk8csY5gHaH7?w=163&h=191&c=7&r=0&o=5&dpr=1.4&pid=1.7",
       "price": "89",
-      "category": "Men's Watch",
-      "stockqty": "100"
+      "category": "other",
+      "stock": "100"
     },
     {
-      "id": "0068",
-      "title": "efghsdmn",
-      "price": "12345",
-      "category": " hgdsfjh",
-      "stock": "21746534",
-      "image": "gfdnbc",
-      "name": "kjsdthfgeuysdhz",
-      "stockqty": "65345"
+      "id": "0750",
+      "title": "shoes",
+      "price": "699",
+      "category": "men's shoes",
+      "stock": "100",
+      "image": "https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg"
+    },
+    {
+      "id": "b7d2",
+      "title": "laptop",
+      "price": "46999",
+      "category": "electronics",
+      "stock": "1",
+      "image": "https://burst.shopifycdn.com/photos/photography-product-download.jpg?width=1000&format=pjpg&exif=0&iptc=0"
+    },
+    {
+      "id": "e4b3",
+      "title": "gift",
+      "price": "149",
+      "category": "gift",
+      "stock": "1000",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUCgPOwnUoBe61Q3lHEVP8cGJyEQzSb90LEg&s"
     }
   ]
 }

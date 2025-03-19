@@ -11,8 +11,10 @@ import Profile from './components/Profile';
 const App = () => {
   return (
     <Router>
-      <Sidebar />
-      <div className="content">
+      <div className="main">
+      <div className="col-md-12 content">
+        <div className="col-md-4"><Sidebar /></div>
+      <div className="col-md-8 sub ">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add-product" element={<AddProduct />} />
@@ -21,6 +23,8 @@ const App = () => {
           <Route path="/profile" element={<Profile />} />
           <Route path="/login" element={<LoginForm />} />
         </Routes>
+      </div>
+      </div>
       </div>
     </Router>
   );
