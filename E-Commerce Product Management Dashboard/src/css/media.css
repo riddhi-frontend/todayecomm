@@ -1,0 +1,321 @@
+@media (min-width: 318px) and (max-width: 480px) {
+    .content
+    {
+        flex-direction: column;
+    }
+    .sidebar
+    {
+        height: 60px;
+        width: 100%;
+        border-right: none;
+        border-bottom: 4px solid var(--hover);
+    }
+    .sidebar #toggle-btn,
+    .profile,
+    .sidebar .icon span
+    {
+        display: none;
+    }
+    .sidebar .icon
+    {
+        font-size: 10px;
+    }
+    .sidebar ul
+    {
+        display: flex;
+        margin-top: -20px;
+        margin-bottom: 0%;
+        width: fit-content;
+        height: 50px;
+    }
+    .dashboard-content
+    {
+        margin-left: 0;
+        padding: 10px;
+    }
+   .product-list {
+        margin-left: 0;
+        margin-top: 15px;
+        overflow-x: auto;
+    }
+    .product-table {
+        width: 10vw !important;
+        font-size: 14px;
+    }
+    .product-table th {
+        font-size: 16px;
+    }
+    .product-table td {
+        padding: 8px;
+    }
+    .product-table td img {
+        width: 70px;
+        height: 60px;
+    }
+    .product-table .delete
+    {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+    .pagination {
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .pagination button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .filters
+    {
+        justify-content: start;
+    }
+    .filters input
+    {
+        width: 22%;
+    }
+    .filters select{
+        width: 25%;
+    }
+    /* Edit Product */
+    .edit-product .form-group label {
+        font-size: 16px;
+    }
+    .edit-product .form-group input {
+        width: auto;
+        margin-right: 15px;
+    }
+    .edit-product button
+    {
+        width: 32%;
+        padding: 12px 10px;
+        margin-top: 0;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    /* Add Product */
+    .add-product-container,
+    .edit-product,
+    .profile-container
+    {
+        left: 7%;
+        margin: 5% 0;
+        width: 280px;
+        padding: 20px 0px;
+    }
+    .add-product-container h2,
+    .edit-product h2
+    {
+        font-size: 35px;
+        margin: 0;
+    }
+    .add-product-container form,
+    .edit-product form
+    {
+        margin-top: 5%;
+    }
+    .add-product-container form input
+    {
+        width: auto;
+    }
+    .add-product-container button
+    {
+        width: 24%;
+        padding: 2px 2px;
+        margin-top: 0;
+        margin-left: 5px;
+        font-size: 12px;
+    }
+    .add-product-container .button-group
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .add-product-container .reset,
+    .add-product-container .cancel
+    {
+        padding: 15px 10px;
+    }
+    .login-form
+    {
+        width: 300px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    .content
+    {
+        flex-direction: column;
+    }
+    .sidebar
+    {
+        height: 60px;
+        width: 100%;
+        border-right: none;
+        border-bottom: 4px solid var(--hover);
+    }
+    .sidebar #toggle-btn,
+    .profile,
+    .sidebar .icon span
+    {
+        display: none;
+    }
+    .sidebar .icon
+    {
+        font-size: 20px;
+    }
+    .sidebar ul
+    {
+        display: flex;
+        margin-top: -20px;
+        margin-bottom: 0%;
+        width: fit-content;
+        height: 50px;
+    }
+    .dashboard-content
+    {
+        margin-left: 0;
+        padding: 10px;
+    }
+   .product-list {
+        margin-left: 0;
+        margin-top: 15px;
+        overflow-x: auto;
+    }
+    .product-table {
+        width: 90vw;
+        font-size: 14px;
+    }
+    .product-table th {
+        font-size: 16px;
+    }
+    .product-table td {
+        padding: 8px;
+    }
+    .product-table td img {
+        width: 75px;
+        height: 80px;
+    }
+    .pagination {
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .pagination button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+    .product-table .delete
+    {
+        margin-top: 5px;
+        margin-left: -2px;
+    }
+    .filters
+    {
+        justify-content: start;
+    }
+    .filters input
+    {
+        width: 14%;
+    }
+    .filters select{
+        width: 25%;
+    }
+    /* Edit Product */
+    .edit-product .form-group label {
+        font-size: 16px;
+    }
+    .edit-product .form-group input {
+        width: auto;
+        margin-right: 15px;
+    }
+    .edit-product button
+    {
+        width: 32%;
+        padding: 12px 10px;
+        margin-top: 0;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+    /* Add Product */
+    .add-product-container,
+    .edit-product,
+    .profile-container
+    {
+        left: 7%;
+        margin: 5% 0;
+        width: 400px;
+        padding: 20px 0px;
+    }
+    .add-product-container form
+    {
+        width: 440px;
+    }
+    .add-product-container form input
+    {
+        width: auto;
+        margin-right: 15px;
+    }
+    .add-product-container .button-group
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .add-product-container button
+    {
+        width: 24%;
+        padding: 12px 2px;
+        margin-top: 0;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .add-product-container form
+    {
+        width: 340px;
+    }
+}
+@media (min-width: 600px) and (max-width : 720px) {
+    .product-table .delete
+    {
+        margin-left: 5px;
+    }
+    .edit-product .form-group label {
+        font-size: 18px;
+    }
+    /* Add Product */
+    .add-product-container,
+    .edit-product,
+    .profile-container
+    {
+        left: 7%;
+        margin: 5% 0;
+        width: 500px;
+        padding: 20px 0px;
+    }
+}
+
+@media (min-width: 600px) and (max-width : 1920px) {
+    .add-product-container .button-group
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .add-product-container button
+    {
+        width: 24%;
+        padding: 12px 2px;
+        margin-top: 0;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 318px) and (max-width : 720px) {
+    .sidebar .icons span {
+        display: none;
+    }
+}

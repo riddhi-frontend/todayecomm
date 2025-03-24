@@ -1,0 +1,306 @@
+:root{
+  --bg :#F8F3D9;
+  --primary: #EBE5C2;
+  --secoundery: #B9B28A;
+  --text: #504B38;
+  --hover: #e0df88fb;
+  --textblack: #000;
+}
+  /* Light Theme Variables */
+  body.light {
+    --text: #504B38;
+    --bg: #F8F3D9;
+    --primary: #EBE5C2;
+    --secoundery: #B9B28A;
+    --hover: #e0df88fb;
+    --textblack: #000;
+  }
+  /* Dark Theme Variables */
+  body.dark {
+    --text: #F8F3D9;
+    --bg: #504B38;
+    --hover: #e0df88fb;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    overflow-x: hidden;
+    background-color: var(--bg);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  /* sidebar Css Start */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  padding: 5px 0.5em;
+  top: 0;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: var(--text);
+  color: var(--bg);
+  position: sticky;
+  align-self: start;
+  transition: 700ms ease;
+  border-right: 4px solid var(--hover);
+}
+.sidebar.close {
+  padding: 5px;
+  width: 80px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar > ul > li:first-child {
+  display: flex;
+}
+.sidebar li.active {
+  background-color: var(--hover);
+  color: var(--text);
+}
+.sidebar li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar li a,
+.sidebar .icons
+ {
+  padding: 15px;
+}
+.sidebar li:hover {
+  background-color: var(--hover);
+  color: var(--text) !important;
+}
+.sidebar .icon:hover,
+.sidebar .icons:hover{
+  color: var(--text);
+}
+.sidebar .icon span,
+.sidebar .icons span
+{
+  margin-left: 15px;
+  font-size: 20px;
+}
+.sidebar #toggle-btn {
+  padding: .5em;
+  font-size: 38px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+  color: var(--bg);
+}
+.sidebar #toggle-btn {
+  flex-shrink: 0;
+  fill: var(--text-clr);
+}
+.sidebar .icon,
+.sidebar .icons
+{
+  background: none;
+  border: none;
+  color: var(--bg);
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sidebar.close .label {
+  display: none;
+}
+.sidebar .icon.active {
+  background-color: var(--hover); 
+  color: var(--text);
+  margin: 10px 0px;
+}
+.customicon
+{
+  width: 3rem;
+  height: 3rem;
+}
+.content
+{
+  display: flex;
+}
+/* Login Form css start */
+.login-container
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color: var(--bg);
+  animation: fadeIn 0.3s ease-out forwards;
+}
+.login-form
+{
+  background: var(--bg);
+  padding: 25px;
+  border-radius: 16px;
+  width: 380px;
+  box-shadow: 0px 8px 20px rgba(224, 233, 136, 0.6);
+  border: 1px solid var(--hover);
+  text-align: center;
+  transform: translateY(-50px);
+  animation: bounceIn 06s ease-out forwards;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes bounceIn
+{
+  0%{
+    opacity: 0;
+    transform: translateY(-50px) scale(0.9);
+  }
+  80% {
+    opacity: 0.8;
+    transform: translateY(5px) scale(1.02);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Add Product Css Start */
+.add-product-container
+{
+  position: relative;
+  left: 60%;
+  padding: 30px 0px;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  width: 550px;
+  border-radius: 20px;
+  background-color: var(--text);
+  animation: fadeIn 2s ease-in-out;
+}
+/* commen keyframe for manageprofile and add product animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.add-product-container .button-group
+{
+  background-color: var(--hover);
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+/* Product Css Start */
+.product-list
+{
+  margin-top: 10px;  
+}
+.product-table
+{
+  width: 76vw;
+  text-align: center;
+}
+.product-table ,th,td
+{
+  border: 1px solid var(--text);
+  padding: 1px;
+}
+.product-table th
+{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product-list .name
+{
+  text-align: left;
+  padding-left: 15px;
+}
+.product-table td img
+{
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+}
+.product-table .edit
+{
+  background-color: var(--hover);
+  color: var(--textblack);
+  font-size: 20px;
+  padding: 6px 4px 5px 8px;
+  border: none;
+  border-radius: 6px;
+}
+.product-table .delete
+{
+  background-color: rgb(238, 80, 80);
+  color: #fff;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 6px 5px 3px 5px;
+  border: none;
+  border-radius: 5px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.pagination button {
+  padding: 10px 15px;
+  background-color: var(--text);
+  color: var(--bg);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination button:disabled {
+  background-color: #ccc;
+}
+/* Product css End */
+
+
+/* Filter Css Start */
+.filters
+{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  color: var(--text);
+}
+.filters select
+{
+  width: 10%;
+  height: 40px;
+  background-color: var(--hover);
+}
+.filters input
+{
+  width: 65%;
+  font-size: 15px;
+  padding-left: 10px;
+  background-color: var(--hover);
+  border: none;
+}
+/* Filter Css End */  
